@@ -40,6 +40,7 @@ module.exports = (env) => {
           { from: './src/manifest.json', to: '.' },
           { from: './src/popup.html', to: '.' },
           { from: './src/icon.png', to: '.' },
+          { from: './src/icons', to: './icons' },
         ],
       }),
     ],
